@@ -1,0 +1,71 @@
+/* =========================================================
+   VICOL — Animations
+   Discrètes, courtes, désactivées si prefers-reduced-motion.
+   ========================================================= */
+
+[data-reveal]{
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity var(--dur-slow) var(--ease), transform var(--dur-slow) var(--ease);
+}
+[data-reveal].is-visible{ opacity: 1; transform: translateY(0); }
+
+[data-reveal-group] > *{ transition-delay: calc(var(--i, 0) * 80ms); }
+
+@media (prefers-reduced-motion: reduce){
+  [data-reveal]{ opacity: 1; transform: none; transition: none; }
+}
+
+/* Ligne de tracé du hero (dessin progressif) */
+.hero__underline{
+  display: inline-block;
+  width: 64px; height: 3px;
+  background: var(--c-teal);
+  transform-origin: left;
+  animation: drawLine 900ms var(--ease) 300ms both;
+}
+@keyframes drawLine{
+  from{ transform: scaleX(0); }
+  to{ transform: scaleX(1); }
+}
+@media (prefers-reduced-motion: reduce){
+  .hero__underline{ animation: none; }
+}
+
+/* Fade simple pour images lazy */
+img[loading="lazy"]{
+  transition: opacity var(--dur-base) var(--ease);
+}
+img.is-loading{ opacity: 0; }
+
+/* Accordéon FAQ : rotation icône déjà gérée en components.css */
+
+/* Menu mobile */
+.mobile-nav{
+  position: fixed;
+  inset: 0;
+  background: var(--c-blue-dark);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  padding: calc(var(--header-h) + var(--sp-5)) var(--sp-5) var(--sp-5);
+  transform: translateX(100%);
+  transition: transform var(--dur-base) var(--ease);
+}
+.mobile-nav.is-open{ transform: translateX(0); }
+.mobile-nav ul{ display: flex; flex-direction: column; gap: var(--sp-2); }
+.mobile-nav a{
+  display: block;
+  color: var(--c-white);
+  font-family: var(--font-display);
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  padding-block: var(--sp-3);
+  border-bottom: 1px solid rgba(255,255,255,.12);
+}
+.mobile-nav__footer{ margin-top: auto; display: flex; flex-direction: column; gap: var(--sp-3); }
+.mobile-nav__lang{ display: flex; gap: var(--sp-3); }
+.mobile-nav__lang button{ color: rgba(255,255,255,.6); font-weight: 700; }
+.mobile-nav__lang button.is-active{ color: var(--c-white); }
+
+body.nav-open{ overflow: hidden; }

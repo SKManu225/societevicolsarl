@@ -1,0 +1,64 @@
+/* =========================================================
+   VICOL — Responsive
+   Breakpoints : mobile < 576, mobile-l 576-767,
+   tablette 768-1023, desktop 1024-1439, large >=1440
+   ========================================================= */
+
+/* ----- < 1024px : bascule menu mobile ----- */
+@media (max-width: 1023px){
+  .main-nav{ display: none; }
+  .header-actions .lang-switch{ display: none; }
+  .nav-toggle{ display: flex; }
+
+  .grid-2, .service-detail{
+    grid-template-columns: 1fr;
+    gap: var(--sp-5);
+  }
+  .grid-2.is-reverse .grid-2__media,
+  .service-detail.is-reverse .service-detail__media{ order: 0; }
+
+  .footer-grid{ grid-template-columns: 1fr 1fr; }
+}
+
+/* ----- Tablette (max 767) ----- */
+@media (max-width: 767px){
+  :root{
+    --header-h: 72px;
+    --header-h-shrink: 60px;
+    --container-pad: 20px;
+  }
+  h1{ font-size: var(--fs-4xl); }
+  h2{ font-size: var(--fs-2xl); }
+  section{ padding-block: var(--sp-7); }
+
+  .hero{ min-height: 82vh; align-items: flex-end; }
+  .hero p.lead{ font-size: var(--fs-md); }
+
+  .cta-band .container{ flex-direction: column; align-items: flex-start; }
+
+  .footer-grid{ grid-template-columns: 1fr; gap: var(--sp-5); }
+  .footer-bottom{ flex-direction: column; align-items: flex-start; }
+
+  .pillars{ grid-template-columns: 1fr; }
+
+  .whatsapp-float{ width: 52px; height: 52px; right: var(--sp-3); bottom: var(--sp-3); }
+  .whatsapp-float svg{ width: 24px; height: 24px; }
+  .whatsapp-float__tooltip{ display: none; }
+  .back-to-top{ right: var(--sp-3); bottom: 78px; width: 40px; height: 40px; }
+
+  .testimonial-card{ padding: var(--sp-5); }
+  .testimonial-card blockquote{ font-size: var(--fs-lg); }
+}
+
+/* ----- Petit mobile (max 400) ----- */
+@media (max-width: 400px){
+  h1{ font-size: var(--fs-3xl); }
+  .hero__actions .btn{ width: 100%; }
+  .stats{ grid-template-columns: 1fr 1fr; }
+}
+
+/* ----- Grand écran (>= 1440) ----- */
+@media (min-width: 1440px){
+  :root{ --container-max: 1360px; }
+  .hero h1{ max-width: 16ch; }
+}

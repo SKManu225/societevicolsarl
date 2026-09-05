@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Nos services",
+    "projects": "Réalisations",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "header": {
+    "cta": "Nous contacter"
+  },
+  "hero": {
+    "tag": "Vitrinemarket Company Limited SARL",
+    "title": "Bâtir. Aménager. Valoriser.",
+    "lead": "Vicol accompagne l'aménagement, le foncier et l'immobilier en Côte d'Ivoire, avec un savoir-faire multisectoriel au service de territoires modernes et durables.",
+    "ctaPrimary": "Découvrir nos services",
+    "ctaSecondary": "Nous contacter",
+    "scroll": "Défiler"
+  },
+  "buttons": {
+    "seeServices": "Voir tous les services",
+    "seeProjects": "Voir toutes nos réalisations",
+    "sendMessage": "Envoyer le message",
+    "callNow": "Appeler maintenant",
+    "whatsapp": "Discuter sur WhatsApp",
+    "backToHome": "Retour à l'accueil"
+  },
+  "footer": {
+    "tagline": "Entreprise multisectorielle d'aménagement, de foncier, d'immobilier, de construction et de services, basée à Abidjan.",
+    "quickLinks": "Liens rapides",
+    "ourServices": "Nos services",
+    "contact": "Contact",
+    "legal": "Mentions légales",
+    "rights": "Tous droits réservés."
+  },
+  "whatsapp": {
+    "tooltip": "Discuter sur WhatsApp"
+  },
+  "form": {
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone",
+    "subject": "Sujet",
+    "message": "Votre message",
+    "submit": "Envoyer le message"
+  }
+}

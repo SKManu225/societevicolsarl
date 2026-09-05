@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1920 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+<rect width="1920" height="800" fill="#275084"/>
+<line x1="0" y1="0" x2="0" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="137" y1="0" x2="137" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="274" y1="0" x2="274" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="411" y1="0" x2="411" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="548" y1="0" x2="548" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="685" y1="0" x2="685" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="822" y1="0" x2="822" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="959" y1="0" x2="959" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="1096" y1="0" x2="1096" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="1233" y1="0" x2="1233" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="1370" y1="0" x2="1370" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="1507" y1="0" x2="1507" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="1644" y1="0" x2="1644" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="1781" y1="0" x2="1781" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="1918" y1="0" x2="1918" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="2055" y1="0" x2="2055" y2="800" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="0" y1="0" x2="1920" y2="0" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="0" y1="137" x2="1920" y2="137" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="0" y1="274" x2="1920" y2="274" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="0" y1="411" x2="1920" y2="411" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="0" y1="548" x2="1920" y2="548" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="0" y1="685" x2="1920" y2="685" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<line x1="0" y1="822" x2="1920" y2="822" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+<rect x="1114" y="133" width="409" height="271" fill="none" stroke="#70C7D5" stroke-width="2" opacity="0.55"/>
+<rect x="970" y="67" width="477" height="274" fill="none" stroke="#0F70B7" stroke-width="2" opacity="0.3"/>
+<rect x="960" y="265" width="598" height="123" fill="none" stroke="#0F70B7" stroke-width="2" opacity="0.55"/>
+<rect x="392" y="481" width="570" height="179" fill="none" stroke="#70C7D5" stroke-width="2" opacity="0.3"/>
+<rect x="1125" y="243" width="291" height="291" fill="#70C7D5" opacity="0.85"/>
+<rect x="1308" y="154" width="254" height="254" fill="#0F70B7" opacity="0.85"/>
+<line x1="474" y1="0" x2="1300" y2="800" stroke="#70C7D5" stroke-width="1" opacity="0.25"/>
+<line x1="310" y1="0" x2="1777" y2="800" stroke="#70C7D5" stroke-width="1" opacity="0.25"/>
+<line x1="1896" y1="0" x2="1071" y2="800" stroke="#70C7D5" stroke-width="1" opacity="0.25"/>
+</svg>

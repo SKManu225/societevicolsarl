@@ -1,0 +1,74 @@
+/* =========================================================
+   VICOL — Design tokens
+   Palette ancrée sur la charte graphique officielle Vicol.
+   ========================================================= */
+:root{
+  /* Couleurs de marque */
+  --c-blue:        #0F70B7;   /* bleu principal (marque) */
+  --c-blue-dark:   #275084;   /* bleu foncé complémentaire */
+  --c-teal:        #70C7D5;   /* turquoise accent — à utiliser avec parcimonie */
+  --c-white:       #FFFFFF;
+
+  /* Neutres */
+  --c-ink:         #16202B;   /* texte principal */
+  --c-ink-soft:    #4A5764;   /* texte secondaire */
+  --c-line:        #E1E7EC;   /* traits, bordures */
+  --c-surface:     #F5F8FA;   /* fond de section alterné */
+  --c-surface-2:   #EEF3F6;
+
+  /* Etats */
+  --c-blue-hover:  #0C5C97;
+  --c-focus:       #0F70B7;
+
+  /* Typo */
+  --font-display: 'Montserrat', -apple-system, 'Segoe UI', sans-serif;
+  --font-body:    'Montserrat', -apple-system, 'Segoe UI', sans-serif;
+
+  /* Echelle typographique (base 16px) */
+  --fs-2xs: 0.75rem;
+  --fs-xs:  0.8125rem;
+  --fs-sm:  0.9375rem;
+  --fs-md:  1rem;
+  --fs-lg:  1.125rem;
+  --fs-xl:  1.375rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: 2.25rem;
+  --fs-4xl: 2.875rem;
+  --fs-5xl: 3.75rem;
+
+  /* Echelle d'espacement */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 16px;
+  --sp-4: 24px;
+  --sp-5: 32px;
+  --sp-6: 48px;
+  --sp-7: 64px;
+  --sp-8: 96px;
+  --sp-9: 128px;
+
+  /* Layout */
+  --container-max: 1240px;
+  --container-pad: 24px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  /* Ombres — discrètes, jamais "soft grey shadow" générique lourde */
+  --shadow-sm: 0 1px 2px rgba(22,32,43,.06);
+  --shadow-md: 0 8px 24px rgba(22,32,43,.09);
+  --shadow-lg: 0 16px 48px rgba(22,32,43,.14);
+
+  /* Transitions */
+  --ease: cubic-bezier(.22,.61,.36,1);
+  --dur-fast: 200ms;
+  --dur-base: 350ms;
+  --dur-slow: 500ms;
+
+  /* Header */
+  --header-h: 84px;
+  --header-h-shrink: 64px;
+}
+
+@media (prefers-reduced-motion: reduce){
+  :root{ --dur-fast: 0ms; --dur-base: 0ms; --dur-slow: 0ms; }
+}

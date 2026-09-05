@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Our Services",
+    "projects": "Projects",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "header": {
+    "cta": "Contact Us"
+  },
+  "hero": {
+    "tag": "Vitrinemarket Company Limited SARL",
+    "title": "Build. Develop. Enhance value.",
+    "lead": "Vicol supports land development, land management and real estate in Côte d'Ivoire, bringing multi-sector expertise to modern, sustainable territories.",
+    "ctaPrimary": "Discover our services",
+    "ctaSecondary": "Contact us",
+    "scroll": "Scroll"
+  },
+  "buttons": {
+    "seeServices": "See all services",
+    "seeProjects": "See all our projects",
+    "sendMessage": "Send message",
+    "callNow": "Call now",
+    "whatsapp": "Chat on WhatsApp",
+    "backToHome": "Back to home"
+  },
+  "footer": {
+    "tagline": "A multi-sector company in land development, real estate, construction and services, based in Abidjan.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contact": "Contact",
+    "legal": "Legal Notice",
+    "rights": "All rights reserved."
+  },
+  "whatsapp": {
+    "tooltip": "Chat on WhatsApp"
+  },
+  "form": {
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Your message",
+    "submit": "Send message"
+  }
+}
